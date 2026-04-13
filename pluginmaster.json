@@ -1,0 +1,21 @@
+[
+  {
+    "Author": "Sansflaire",
+    "Name": "Local Collidables",
+    "InternalName": "LocalCollidables",
+    "AssemblyVersion": "0.1.0",
+    "TestingAssemblyVersion": "0.1.0",
+    "Punchline": "Adds invisible collision barriers around locally-spawned objects.",
+    "Description": "Hooks the RMI (raw movement input) pipeline to intercept player movement before it reaches the game server. When the player attempts to walk into a registered barrier volume (placed around locally-visible props), the movement component pointing into the barrier is zeroed and a sliding response is computed. The server only ever sees the player stop moving naturally.",
+    "RepoUrl": "https://github.com/Sansflaire/LocalCollidables",
+    "Tags": ["utility", "world", "movement", "collision"],
+    "CategoryTags": ["Utility"],
+    "DalamudApiLevel": 14,
+    "ApplicableVersion": "any",
+    "DownloadLinkInstall": "https://github.com/Sansflaire/LocalCollidables/releases/latest/download/LocalCollidables.zip",
+    "DownloadLinkUpdate": "https://github.com/Sansflaire/LocalCollidables/releases/latest/download/LocalCollidables.zip",
+    "DownloadLinkTesting": "https://github.com/Sansflaire/LocalCollidables/releases/latest/download/LocalCollidables.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false
+  }
+]

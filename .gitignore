@@ -1,0 +1,16 @@
+CLAUDE.md
+src/bin/
+src/obj/
+LocalCollidables.dll
+*.pdb
+*.deps.json
+.vs/
+.idea/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
+refs/
+
+# Loose DLLs
+*.dll

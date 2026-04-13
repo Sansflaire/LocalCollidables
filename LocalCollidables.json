@@ -1,0 +1,12 @@
+{
+    "Author": "Sansflaire",
+    "Name": "Local Collidables",
+    "InternalName": "LocalCollidables",
+    "Punchline": "Adds invisible collision barriers around locally-spawned objects.",
+    "Description": "Hooks the RMI (raw movement input) pipeline to intercept player movement before it reaches the game server. When the player attempts to walk into a registered barrier volume (placed around locally-visible props), the movement component pointing into the barrier is zeroed and a sliding response is computed. The server only ever sees the player stop moving naturally.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 14,
+    "Tags": ["utility", "world", "movement", "collision"],
+    "CategoryTags": ["Utility"],
+    "AssemblyVersion": "0.9.0"
+}
